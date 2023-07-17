@@ -1,0 +1,281 @@
+{
+  "mod_elements": [
+    {
+      "name": "PoisonTipped",
+      "type": "enchantment",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_tipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fectaria/enchantment/PoisonTippedEnchantment.java"
+        ]
+      },
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "PoisonTippedProcedure",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_tipped_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fectaria/procedures/PoisonTippedProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "WeightAtt",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weight_att",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fectaria/procedures/WeightAttProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Weight"
+    },
+    {
+      "name": "WeightRender",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weight_render",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fectaria/procedures/WeightRenderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      },
+      "path": "~/Weight"
+    },
+    {
+      "name": "Dream",
+      "type": "dimension",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fectaria/world/dimension/DreamDimension.java",
+          "src/main/resources/data/fectaria/dimension_type/dream.json",
+          "src/main/resources/data/fectaria/dimension/dream.json"
+        ]
+      },
+      "path": "~/Dream Dimension"
+    },
+    {
+      "name": "DreamEnter",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_enter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fectaria/procedures/DreamEnterProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dream Dimension"
+    },
+    {
+      "name": "DreamAdvancement",
+      "type": "achievement",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fectaria/advancements/dream_advancement.json"
+        ]
+      },
+      "path": "~/Dream Dimension"
+    },
+    {
+      "name": "BlueFlower",
+      "type": "plant",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fectaria/blockstates/blue_flower.json",
+          "src/main/resources/data/fectaria/forge/biome_modifier/blue_flower_biome_modifier.json",
+          "src/main/resources/assets/fectaria/models/item/blue_flower.json",
+          "src/main/resources/assets/fectaria/models/block/blue_flower.json",
+          "src/main/resources/data/fectaria/worldgen/configured_feature/blue_flower.json",
+          "src/main/resources/data/fectaria/worldgen/placed_feature/blue_flower.json",
+          "src/main/java/net/mcreator/fectaria/world/features/plants/BlueFlowerFeature.java",
+          "src/main/java/net/mcreator/fectaria/block/BlueFlowerBlock.java"
+        ]
+      },
+      "path": "~/Dream Dimension"
+    },
+    {
+      "name": "DreamEssence",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_essence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fectaria/item/DreamEssenceItem.java",
+          "src/main/resources/assets/fectaria/models/item/dream_essence.json"
+        ]
+      },
+      "path": "~/Dream Dimension"
+    },
+    {
+      "name": "DreamEssenceOre",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_essence_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fectaria/blockstates/dream_essence_ore.json",
+          "src/main/java/net/mcreator/fectaria/world/features/ores/DreamEssenceOreFeature.java",
+          "src/main/java/net/mcreator/fectaria/block/DreamEssenceOreBlock.java",
+          "src/main/resources/assets/fectaria/models/item/dream_essence_ore.json",
+          "src/main/resources/assets/fectaria/models/block/dream_essence_ore.json",
+          "src/main/resources/data/fectaria/worldgen/configured_feature/dream_essence_ore.json",
+          "src/main/resources/data/fectaria/worldgen/placed_feature/dream_essence_ore.json",
+          "src/main/resources/data/fectaria/forge/biome_modifier/dream_essence_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dream Dimension"
+    },
+    {
+      "name": "DreamDweller",
+      "type": "livingentity",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_dweller",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fectaria/forge/biome_modifier/dream_dweller_biome_modifier.json",
+          "src/main/resources/assets/fectaria/models/item/dream_dweller_spawn_egg.json",
+          "src/main/java/net/mcreator/fectaria/client/renderer/DreamDwellerRenderer.java",
+          "src/main/java/net/mcreator/fectaria/entity/DreamDwellerEntity.java"
+        ]
+      },
+      "path": "~/Dream Dimension"
+    },
+    {
+      "name": "Dreamscape",
+      "type": "biome",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreamscape",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fectaria/worldgen/placed_feature/dreamscape_tree.json",
+          "src/main/resources/data/fectaria/worldgen/biome/dreamscape.json",
+          "src/main/resources/data/fectaria/worldgen/configured_feature/dreamscape_tree.json"
+        ]
+      },
+      "path": "~/Dream Dimension"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.fectaria.dream_dweller_spawn_egg": "Dream Dweller Spawn Egg",
+      "advancements.dream_advancement.descr": "Only in your dreams...",
+      "enchantment.fectaria.poison_tipped": "Poison Tipped",
+      "entity.fectaria.dream_dweller": "Dream Dweller",
+      "advancements.dream_advancement.title": "You\u0027ve Been Here Before",
+      "item.fectaria.dream_essence": "Dream Essence",
+      "block.fectaria.dream_essence_ore": "Dream Essence Ore",
+      "biome.fectaria.dreamscape": "Dreamscape",
+      "block.fectaria.blue_flower": "Cyan Flower"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Enchantments",
+        "children": []
+      },
+      {
+        "name": "Weight",
+        "children": []
+      },
+      {
+        "name": "Dream Dimension",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "fectaria",
+    "modName": "Fectaria",
+    "version": "1.0.0",
+    "author": "KalIDitzy, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.fectaria",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

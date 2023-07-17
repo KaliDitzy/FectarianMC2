@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fectaria:block/dreamessence_ore",
+    "up": "fectaria:block/dreamessence_ore",
+    "north": "fectaria:block/dreamessence_ore",
+    "east": "fectaria:block/dreamessence_ore",
+    "south": "fectaria:block/dreamessence_ore",
+    "west": "fectaria:block/dreamessence_ore",
+    "particle": "fectaria:block/dreamessence_ore"
+  },
+  "render_type": "solid"
+}

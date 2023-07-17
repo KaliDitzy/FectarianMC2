@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "fectaria:block/flower",
+    "particle": "fectaria:block/flower"
+  },
+  "render_type": "cutout"
+}

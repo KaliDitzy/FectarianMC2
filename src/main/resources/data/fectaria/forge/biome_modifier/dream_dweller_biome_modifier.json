@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "fectaria:dreamscape",
+  "spawners": {
+    "type": "fectaria:dream_dweller",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}
