@@ -4,11 +4,11 @@
   "downfall": 0.5,
   "effects": {
     "foliage_color": -16711936,
-    "grass_color": -16711936,
-    "sky_color": -16711681,
-    "fog_color": -16711681,
-    "water_color": -16776961,
-    "water_fog_color": -16776961
+    "grass_color": -10027162,
+    "sky_color": -3355393,
+    "fog_color": -3355393,
+    "water_color": -13421569,
+    "water_fog_color": -13421569
   },
   "spawners": {
     "monster": [],

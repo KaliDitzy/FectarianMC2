@@ -91,9 +91,9 @@
       "registry_name": "dream",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fectaria/world/dimension/DreamDimension.java",
+          "src/main/resources/data/fectaria/dimension/dream.json",
           "src/main/resources/data/fectaria/dimension_type/dream.json",
-          "src/main/resources/data/fectaria/dimension/dream.json"
+          "src/main/java/net/mcreator/fectaria/world/dimension/DreamDimension.java"
         ]
       },
       "path": "~/Dream Dimension"
@@ -218,6 +218,23 @@
           "src/main/resources/data/fectaria/worldgen/placed_feature/dreamscape_tree.json",
           "src/main/resources/data/fectaria/worldgen/biome/dreamscape.json",
           "src/main/resources/data/fectaria/worldgen/configured_feature/dreamscape_tree.json"
+        ]
+      },
+      "path": "~/Dream Dimension"
+    },
+    {
+      "name": "DirtHut",
+      "type": "structure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_hut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fectaria/forge/biome_modifier/dirt_hut_biome_modifier.json",
+          "src/main/resources/data/fectaria/worldgen/placed_feature/dirt_hut.json",
+          "src/main/resources/data/fectaria/worldgen/configured_feature/dirt_hut.json",
+          "src/main/java/net/mcreator/fectaria/world/features/DirtHutFeature.java"
         ]
       },
       "path": "~/Dream Dimension"
