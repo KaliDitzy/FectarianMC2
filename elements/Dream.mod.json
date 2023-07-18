@@ -5,6 +5,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:Dreamscape"
+      },
+      {
+        "value": "void"
       }
     ],
     "worldGenType": "Normal world gen",

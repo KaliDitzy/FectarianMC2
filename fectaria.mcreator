@@ -238,6 +238,37 @@
         ]
       },
       "path": "~/Dream Dimension"
+    },
+    {
+      "name": "HouseLoot",
+      "type": "loottable",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "house_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fectaria/loot_tables/chests/house_loot.json"
+        ]
+      },
+      "path": "~/Dream Dimension"
+    },
+    {
+      "name": "DreamHouse",
+      "type": "structure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_house",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fectaria/world/features/DreamHouseFeature.java",
+          "src/main/resources/data/fectaria/worldgen/placed_feature/dream_house.json",
+          "src/main/resources/data/fectaria/forge/biome_modifier/dream_house_biome_modifier.json",
+          "src/main/resources/data/fectaria/worldgen/configured_feature/dream_house.json"
+        ]
+      },
+      "path": "~/Dream Dimension"
     }
   ],
   "variable_elements": [],
