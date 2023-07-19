@@ -3,7 +3,7 @@
     {
       "name": "PoisonTipped",
       "type": "enchantment",
-      "sortid": 5,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "poison_tipped",
@@ -17,7 +17,7 @@
     {
       "name": "PoisonTippedProcedure",
       "type": "procedure",
-      "sortid": 2,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "poison_tipped_procedure",
@@ -41,7 +41,7 @@
     {
       "name": "WeightAtt",
       "type": "procedure",
-      "sortid": 1,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weight_att",
@@ -61,7 +61,7 @@
     {
       "name": "WeightRender",
       "type": "procedure",
-      "sortid": 3,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weight_render",
@@ -85,7 +85,7 @@
     {
       "name": "Dream",
       "type": "dimension",
-      "sortid": 6,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dream",
@@ -101,7 +101,7 @@
     {
       "name": "DreamEnter",
       "type": "procedure",
-      "sortid": 4,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dream_enter",
@@ -121,7 +121,7 @@
     {
       "name": "DreamAdvancement",
       "type": "achievement",
-      "sortid": 7,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dream_advancement",
@@ -135,20 +135,20 @@
     {
       "name": "BlueFlower",
       "type": "plant",
-      "sortid": 8,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_flower",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fectaria/blockstates/blue_flower.json",
-          "src/main/resources/data/fectaria/forge/biome_modifier/blue_flower_biome_modifier.json",
           "src/main/resources/assets/fectaria/models/item/blue_flower.json",
+          "src/main/resources/data/fectaria/forge/biome_modifier/blue_flower_biome_modifier.json",
+          "src/main/resources/assets/fectaria/blockstates/blue_flower.json",
+          "src/main/java/net/mcreator/fectaria/block/BlueFlowerBlock.java",
+          "src/main/resources/data/fectaria/worldgen/placed_feature/blue_flower.json",
           "src/main/resources/assets/fectaria/models/block/blue_flower.json",
           "src/main/resources/data/fectaria/worldgen/configured_feature/blue_flower.json",
-          "src/main/resources/data/fectaria/worldgen/placed_feature/blue_flower.json",
-          "src/main/java/net/mcreator/fectaria/world/features/plants/BlueFlowerFeature.java",
-          "src/main/java/net/mcreator/fectaria/block/BlueFlowerBlock.java"
+          "src/main/java/net/mcreator/fectaria/world/features/plants/BlueFlowerFeature.java"
         ]
       },
       "path": "~/Dream Dimension"
@@ -156,14 +156,14 @@
     {
       "name": "DreamEssence",
       "type": "item",
-      "sortid": 9,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dream_essence",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fectaria/item/DreamEssenceItem.java",
-          "src/main/resources/assets/fectaria/models/item/dream_essence.json"
+          "src/main/resources/assets/fectaria/models/item/dream_essence.json",
+          "src/main/java/net/mcreator/fectaria/item/DreamEssenceItem.java"
         ]
       },
       "path": "~/Dream Dimension"
@@ -171,20 +171,20 @@
     {
       "name": "DreamEssenceOre",
       "type": "block",
-      "sortid": 10,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dream_essence_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/fectaria/blockstates/dream_essence_ore.json",
-          "src/main/java/net/mcreator/fectaria/world/features/ores/DreamEssenceOreFeature.java",
-          "src/main/java/net/mcreator/fectaria/block/DreamEssenceOreBlock.java",
-          "src/main/resources/assets/fectaria/models/item/dream_essence_ore.json",
-          "src/main/resources/assets/fectaria/models/block/dream_essence_ore.json",
+          "src/main/resources/data/fectaria/forge/biome_modifier/dream_essence_ore_biome_modifier.json",
           "src/main/resources/data/fectaria/worldgen/configured_feature/dream_essence_ore.json",
           "src/main/resources/data/fectaria/worldgen/placed_feature/dream_essence_ore.json",
-          "src/main/resources/data/fectaria/forge/biome_modifier/dream_essence_ore_biome_modifier.json"
+          "src/main/java/net/mcreator/fectaria/block/DreamEssenceOreBlock.java",
+          "src/main/java/net/mcreator/fectaria/world/features/ores/DreamEssenceOreFeature.java",
+          "src/main/resources/assets/fectaria/models/item/dream_essence_ore.json",
+          "src/main/resources/assets/fectaria/blockstates/dream_essence_ore.json",
+          "src/main/resources/assets/fectaria/models/block/dream_essence_ore.json"
         ]
       },
       "path": "~/Dream Dimension"
@@ -192,7 +192,7 @@
     {
       "name": "DreamDweller",
       "type": "livingentity",
-      "sortid": 11,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dream_dweller",
@@ -209,7 +209,7 @@
     {
       "name": "Dreamscape",
       "type": "biome",
-      "sortid": 12,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dreamscape",
@@ -225,7 +225,7 @@
     {
       "name": "DirtHut",
       "type": "structure",
-      "sortid": 13,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dirt_hut",
@@ -242,7 +242,7 @@
     {
       "name": "HouseLoot",
       "type": "loottable",
-      "sortid": 14,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "house_loot",
@@ -256,7 +256,7 @@
     {
       "name": "DreamHouse",
       "type": "structure",
-      "sortid": 15,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dream_house",
@@ -269,6 +269,68 @@
         ]
       },
       "path": "~/Dream Dimension"
+    },
+    {
+      "name": "MachineCore",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machine_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fectaria/models/item/machine_core.json",
+          "src/main/java/net/mcreator/fectaria/block/MachineCoreBlock.java",
+          "src/main/resources/assets/fectaria/blockstates/machine_core.json",
+          "src/main/resources/assets/fectaria/models/block/machine_core.json",
+          "src/main/java/net/mcreator/fectaria/block/entity/MachineCoreBlockEntity.java"
+        ]
+      },
+      "path": "~/Machines"
+    },
+    {
+      "name": "Machines",
+      "type": "tab",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machines",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Machines"
+    },
+    {
+      "name": "MachineNode",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machine_node",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fectaria/models/item/machine_node.json",
+          "src/main/resources/assets/fectaria/models/block/machine_node.json",
+          "src/main/resources/assets/fectaria/blockstates/machine_node.json",
+          "src/main/java/net/mcreator/fectaria/block/MachineNodeBlock.java"
+        ]
+      },
+      "path": "~/Machines"
+    },
+    {
+      "name": "MachineCoreGUI",
+      "type": "gui",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machine_core_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fectaria/world/inventory/MachineCoreGUIMenu.java",
+          "src/main/java/net/mcreator/fectaria/client/gui/MachineCoreGUIScreen.java"
+        ]
+      },
+      "path": "~/Machines"
     }
   ],
   "variable_elements": [],
@@ -276,13 +338,18 @@
   "language_map": {
     "en_us": {
       "item.fectaria.dream_dweller_spawn_egg": "Dream Dweller Spawn Egg",
+      "item_group.fectaria.machines": "Machines",
       "advancements.dream_advancement.descr": "Only in your dreams...",
       "enchantment.fectaria.poison_tipped": "Poison Tipped",
       "entity.fectaria.dream_dweller": "Dream Dweller",
+      "block.fectaria.machine_node": "Machine Node",
       "advancements.dream_advancement.title": "You\u0027ve Been Here Before",
-      "item.fectaria.dream_essence": "Dream Essence",
       "block.fectaria.dream_essence_ore": "Dream Essence Ore",
       "biome.fectaria.dreamscape": "Dreamscape",
+      "gui.fectaria.machine_core_gui.label_machine_core": "MACHINE CORE",
+      "block.fectaria.machine_core": "Machine Core",
+      "gui.fectaria.machine_core_gui.button_detect": "Detect",
+      "item.fectaria.dream_essence": "Dream Essence",
       "block.fectaria.blue_flower": "Cyan Flower"
     }
   },
@@ -303,6 +370,10 @@
       },
       {
         "name": "Dream Dimension",
+        "children": []
+      },
+      {
+        "name": "Machines",
         "children": []
       }
     ]

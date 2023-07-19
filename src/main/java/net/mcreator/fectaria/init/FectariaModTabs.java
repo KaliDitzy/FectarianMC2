@@ -8,7 +8,10 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.CreativeModeTabEvent;
 
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class FectariaModTabs {
@@ -30,5 +33,16 @@ public class FectariaModTabs {
 			tabData.accept(FectariaModBlocks.BLUE_FLOWER.get().asItem());
 			tabData.accept(FectariaModBlocks.DREAM_ESSENCE_ORE.get().asItem());
 		}
+	}
+
+	@SubscribeEvent
+	public static void buildTabContentsModded(CreativeModeTabEvent.Register event) {
+		event.registerCreativeModeTab(new ResourceLocation("fectaria", "machines"),
+				builder -> builder.title(Component.translatable("item_group.fectaria.machines")).icon(() -> new ItemStack(FectariaModBlocks.MACHINE_CORE.get())).displayItems((parameters, tabData) -> {
+					tabData.accept(FectariaModBlocks.MACHINE_CORE.get().asItem());
+					tabData.accept(FectariaModBlocks.MACHINE_NODE.get().asItem());
+				})
+
+		);
 	}
 }

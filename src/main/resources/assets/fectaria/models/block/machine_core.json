@@ -1,0 +1,9 @@
+{
+  "parent": "fectaria:custom/machine_core",
+  "textures": {
+    "all": "fectaria:block/machinecore_texture",
+    "particle": "fectaria:block/machinecore_texture",
+    "0": "fectaria:block/machinecore_texture"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fectaria:block/machine_node"
+    }
+  }
+}
