@@ -29,13 +29,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.fectaria.init.FectariaModMenus;
 import net.mcreator.fectaria.init.FectariaModItems;
 import net.mcreator.fectaria.init.FectariaModFeatures;
 import net.mcreator.fectaria.init.FectariaModEntities;
 import net.mcreator.fectaria.init.FectariaModEnchantments;
 import net.mcreator.fectaria.init.FectariaModBlocks;
-import net.mcreator.fectaria.init.FectariaModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -58,10 +56,9 @@ public class FectariaMod {
 		FectariaModBlocks.REGISTRY.register(bus);
 		FectariaModItems.REGISTRY.register(bus);
 		FectariaModEntities.REGISTRY.register(bus);
-		FectariaModBlockEntities.REGISTRY.register(bus);
+
 		FectariaModEnchantments.REGISTRY.register(bus);
 
-		FectariaModMenus.REGISTRY.register(bus);
 		FectariaModFeatures.REGISTRY.register(bus);
 
 	}

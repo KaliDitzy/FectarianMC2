@@ -2,23 +2,24 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "machinecore_texture",
+    "texture": "cedar_planks",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 2,
-    "customModelName": "machine_core:default",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
-    "emissiveRendering": true,
+    "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Slab",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -33,28 +34,28 @@
         "subtract": false
       }
     ],
-    "name": "Machine Core",
+    "name": "Cedar Slab",
     "specialInfo": [],
-    "hardness": 5.0,
+    "hardness": 2.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Machines"
+      "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "IRON"
+      "value": "WOOD"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -79,7 +80,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "WOOD"
     },
     "breakSound": {
       "value": ""
@@ -96,14 +97,14 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 5,
+    "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": true,
-    "inventorySize": 0,
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
@@ -117,9 +118,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "MachineCoreUse"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

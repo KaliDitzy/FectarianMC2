@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "fectaria:block/cedar_planks",
+    "particle": "fectaria:block/cedar_planks"
+  },
+  "render_type": "solid"
+}

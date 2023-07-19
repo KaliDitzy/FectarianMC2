@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "fectaria:cedar_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "fectaria:cedar_planks"
+    },
+    "3": {
+      "item": "fectaria:cedar_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "fectaria:cedar_planks"
+    }
+  },
+  "result": {
+    "item": "fectaria:cedar_fence",
+    "count": 3
+  }
+}

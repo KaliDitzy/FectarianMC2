@@ -282,8 +282,7 @@
           "src/main/resources/assets/fectaria/models/item/machine_core.json",
           "src/main/java/net/mcreator/fectaria/block/MachineCoreBlock.java",
           "src/main/resources/assets/fectaria/blockstates/machine_core.json",
-          "src/main/resources/assets/fectaria/models/block/machine_core.json",
-          "src/main/java/net/mcreator/fectaria/block/entity/MachineCoreBlockEntity.java"
+          "src/main/resources/assets/fectaria/models/block/machine_core.json"
         ]
       },
       "path": "~/Machines"
@@ -318,37 +317,413 @@
       "path": "~/Machines"
     },
     {
-      "name": "MachineCoreGUI",
-      "type": "gui",
+      "name": "MachineCoreUse",
+      "type": "procedure",
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "machine_core_gui",
+      "registry_name": "machine_core_use",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fectaria/world/inventory/MachineCoreGUIMenu.java",
-          "src/main/java/net/mcreator/fectaria/client/gui/MachineCoreGUIScreen.java"
+          "src/main/java/net/mcreator/fectaria/procedures/MachineCoreUseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
       "path": "~/Machines"
+    },
+    {
+      "name": "CedarLog",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cedar_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fectaria/block/CedarLogBlock.java",
+          "src/main/resources/assets/fectaria/models/block/cedar_log.json",
+          "src/main/resources/assets/fectaria/blockstates/cedar_log.json",
+          "src/main/resources/assets/fectaria/models/item/cedar_log.json"
+        ]
+      },
+      "path": "~/Cedar Wood"
+    },
+    {
+      "name": "CedarStrippedLog",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cedar_stripped_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fectaria/block/CedarStrippedLogBlock.java",
+          "src/main/resources/assets/fectaria/models/item/cedar_stripped_log.json",
+          "src/main/resources/assets/fectaria/blockstates/cedar_stripped_log.json",
+          "src/main/resources/assets/fectaria/models/block/cedar_stripped_log.json"
+        ]
+      },
+      "path": "~/Cedar Wood"
+    },
+    {
+      "name": "StrippingProcedure",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripping_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fectaria/procedures/StrippingProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Cedar Wood"
+    },
+    {
+      "name": "CedarPlanks",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cedar_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fectaria/models/block/cedar_planks.json",
+          "src/main/resources/assets/fectaria/blockstates/cedar_planks.json",
+          "src/main/java/net/mcreator/fectaria/block/CedarPlanksBlock.java",
+          "src/main/resources/assets/fectaria/models/item/cedar_planks.json"
+        ]
+      },
+      "path": "~/Cedar Wood"
+    },
+    {
+      "name": "CedarSlab",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cedar_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fectaria/models/item/cedar_slab.json",
+          "src/main/resources/assets/fectaria/models/block/cedar_slab.json",
+          "src/main/resources/assets/fectaria/models/block/cedar_slab_top.json",
+          "src/main/resources/assets/fectaria/models/block/cedar_slab_full.json",
+          "src/main/java/net/mcreator/fectaria/block/CedarSlabBlock.java",
+          "src/main/resources/assets/fectaria/blockstates/cedar_slab.json"
+        ]
+      },
+      "path": "~/Cedar Wood"
+    },
+    {
+      "name": "CedarStairs",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cedar_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fectaria/models/block/cedar_stairs_inner.json",
+          "src/main/resources/assets/fectaria/models/item/cedar_stairs.json",
+          "src/main/resources/assets/fectaria/models/block/cedar_stairs.json",
+          "src/main/resources/assets/fectaria/blockstates/cedar_stairs.json",
+          "src/main/resources/assets/fectaria/models/block/cedar_stairs_outer.json",
+          "src/main/java/net/mcreator/fectaria/block/CedarStairsBlock.java"
+        ]
+      },
+      "path": "~/Cedar Wood"
+    },
+    {
+      "name": "CedarFence",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cedar_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fectaria/models/block/cedar_fence_post.json",
+          "src/main/resources/assets/fectaria/models/block/cedar_fence_inventory.json",
+          "src/main/java/net/mcreator/fectaria/block/CedarFenceBlock.java",
+          "src/main/resources/assets/fectaria/models/item/cedar_fence.json",
+          "src/main/resources/assets/fectaria/blockstates/cedar_fence.json",
+          "src/main/resources/assets/fectaria/models/block/cedar_fence.json"
+        ]
+      },
+      "path": "~/Cedar Wood"
+    },
+    {
+      "name": "CedarPlanksRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cedar_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fectaria/recipes/cedar_planks_recipe.json"
+        ]
+      },
+      "path": "~/Cedar Wood"
+    },
+    {
+      "name": "CedarSlabRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cedar_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fectaria/recipes/cedar_slab_recipe.json"
+        ]
+      },
+      "path": "~/Cedar Wood"
+    },
+    {
+      "name": "CedarStairsRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cedar_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fectaria/recipes/cedar_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Cedar Wood"
+    },
+    {
+      "name": "CedarLogExtension",
+      "type": "itemextension",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cedar_log_extension",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Cedar Wood"
+    },
+    {
+      "name": "CedarStrippedLogExtension",
+      "type": "itemextension",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cedar_stripped_log_extension",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Cedar Wood"
+    },
+    {
+      "name": "CedarPlanksExtension",
+      "type": "itemextension",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cedar_planks_extension",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Cedar Wood"
+    },
+    {
+      "name": "CedarSlabExtension",
+      "type": "itemextension",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cedar_slab_extension",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Cedar Wood"
+    },
+    {
+      "name": "CedarStairsExtension",
+      "type": "itemextension",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cedar_stairs_extension",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Cedar Wood"
+    },
+    {
+      "name": "CedarFenceExtension",
+      "type": "itemextension",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cedar_fence_extension",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Cedar Wood"
+    },
+    {
+      "name": "CedarFenceRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cedar_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fectaria/recipes/cedar_fence_recipe.json"
+        ]
+      },
+      "path": "~/Cedar Wood"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
+        ]
+      }
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      }
+    },
+    {
+      "name": "FenceBlocks",
+      "type": "tag",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fence_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/fences.json"
+        ]
+      }
+    },
+    {
+      "name": "WoodenFenceBlocks",
+      "type": "tag",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_fence_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wooden_fences.json"
+        ]
+      }
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "PlankItems",
+      "type": "tag",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/planks.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.fectaria.cedar_slab": "Cedar Slab",
+      "block.fectaria.cedar_fence": "Cedar Fence",
       "item.fectaria.dream_dweller_spawn_egg": "Dream Dweller Spawn Egg",
+      "block.fectaria.cedar_planks": "Cedar Planks",
       "item_group.fectaria.machines": "Machines",
+      "block.fectaria.cedar_stripped_log": "Stripped Cedar Log",
       "advancements.dream_advancement.descr": "Only in your dreams...",
+      "block.fectaria.cedar_stairs": "Cedar Stairs",
       "enchantment.fectaria.poison_tipped": "Poison Tipped",
       "entity.fectaria.dream_dweller": "Dream Dweller",
       "block.fectaria.machine_node": "Machine Node",
       "advancements.dream_advancement.title": "You\u0027ve Been Here Before",
       "block.fectaria.dream_essence_ore": "Dream Essence Ore",
       "biome.fectaria.dreamscape": "Dreamscape",
-      "gui.fectaria.machine_core_gui.label_machine_core": "MACHINE CORE",
       "block.fectaria.machine_core": "Machine Core",
       "gui.fectaria.machine_core_gui.button_detect": "Detect",
+      "block.fectaria.cedar_log": "Cedar Log",
       "item.fectaria.dream_essence": "Dream Essence",
       "block.fectaria.blue_flower": "Cyan Flower"
     }
@@ -356,10 +731,6 @@
   "foldersRoot": {
     "name": "~",
     "children": [
-      {
-        "name": "Recipes",
-        "children": []
-      },
       {
         "name": "Enchantments",
         "children": []
@@ -375,14 +746,19 @@
       {
         "name": "Machines",
         "children": []
+      },
+      {
+        "name": "Cedar Wood",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "fectaria",
-    "modName": "Fectaria",
+    "modName": "Fectarian Mod",
     "version": "1.0.0",
-    "author": "KalIDitzy, MCreator",
+    "description": "For private use in Fectarian servers.",
+    "author": "KalIDitzy, SwigityOS, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fectaria:block/cedar_slab"
+    },
+    "type=top": {
+      "model": "fectaria:block/cedar_slab_top"
+    },
+    "type=double": {
+      "model": "fectaria:block/cedar_slab_full"
+    }
+  }
+}

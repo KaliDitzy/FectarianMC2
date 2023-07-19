@@ -18,6 +18,15 @@ public class FectariaModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(CreativeModeTabEvent.BuildContents tabData) {
 
+		if (tabData.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(FectariaModBlocks.CEDAR_LOG.get().asItem());
+			tabData.accept(FectariaModBlocks.CEDAR_STRIPPED_LOG.get().asItem());
+			tabData.accept(FectariaModBlocks.CEDAR_PLANKS.get().asItem());
+			tabData.accept(FectariaModBlocks.CEDAR_SLAB.get().asItem());
+			tabData.accept(FectariaModBlocks.CEDAR_STAIRS.get().asItem());
+			tabData.accept(FectariaModBlocks.CEDAR_FENCE.get().asItem());
+		}
+
 		if (tabData.getTab() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(FectariaModItems.DREAM_DWELLER_SPAWN_EGG.get());
 		}

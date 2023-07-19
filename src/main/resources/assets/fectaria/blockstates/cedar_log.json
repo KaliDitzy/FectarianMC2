@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "fectaria:block/cedar_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "fectaria:block/cedar_log"
+    },
+    "axis=z": {
+      "model": "fectaria:block/cedar_log",
+      "x": 90
+    }
+  }
+}

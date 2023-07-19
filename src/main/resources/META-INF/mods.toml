@@ -5,10 +5,11 @@ license="Academic Free License v3.0"
 [[mods]]
 modId="fectaria"
 version="1.0.0"
-displayName="Fectaria"
+displayName="Fectarian Mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="KalIDitzy, MCreator"
+authors="KalIDitzy, SwigityOS, MCreator"
+description="For private use in Fectarian servers."
 
 [[dependencies.fectaria]]
     modId="minecraft"

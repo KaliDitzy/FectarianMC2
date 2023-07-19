@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fectaria:block/cedar_planks",
+    "up": "fectaria:block/cedar_planks",
+    "north": "fectaria:block/cedar_planks",
+    "east": "fectaria:block/cedar_planks",
+    "south": "fectaria:block/cedar_planks",
+    "west": "fectaria:block/cedar_planks",
+    "particle": "fectaria:block/cedar_planks"
+  },
+  "render_type": "solid"
+}

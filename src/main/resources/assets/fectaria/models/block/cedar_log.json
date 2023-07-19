@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fectaria:block/cedar_log_topbottom",
+    "up": "fectaria:block/cedar_log_topbottom",
+    "north": "fectaria:block/cedar_log_side",
+    "east": "fectaria:block/cedar_log_side",
+    "south": "fectaria:block/cedar_log_side",
+    "west": "fectaria:block/cedar_log_side",
+    "particle": "fectaria:block/cedar_log_topbottom"
+  },
+  "render_type": "solid"
+}

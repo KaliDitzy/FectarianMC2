@@ -1,16 +1,21 @@
 {
+  "block.fectaria.cedar_slab": "Cedar Slab",
+  "block.fectaria.cedar_fence": "Cedar Fence",
   "item.fectaria.dream_dweller_spawn_egg": "Dream Dweller Spawn Egg",
+  "block.fectaria.cedar_planks": "Cedar Planks",
   "item_group.fectaria.machines": "Machines",
+  "block.fectaria.cedar_stripped_log": "Stripped Cedar Log",
   "advancements.dream_advancement.descr": "Only in your dreams...",
+  "block.fectaria.cedar_stairs": "Cedar Stairs",
   "enchantment.fectaria.poison_tipped": "Poison Tipped",
   "entity.fectaria.dream_dweller": "Dream Dweller",
   "block.fectaria.machine_node": "Machine Node",
   "advancements.dream_advancement.title": "You\u0027ve Been Here Before",
   "block.fectaria.dream_essence_ore": "Dream Essence Ore",
   "biome.fectaria.dreamscape": "Dreamscape",
-  "gui.fectaria.machine_core_gui.label_machine_core": "MACHINE CORE",
   "block.fectaria.machine_core": "Machine Core",
   "gui.fectaria.machine_core_gui.button_detect": "Detect",
+  "block.fectaria.cedar_log": "Cedar Log",
   "item.fectaria.dream_essence": "Dream Essence",
   "block.fectaria.blue_flower": "Cyan Flower"
 }

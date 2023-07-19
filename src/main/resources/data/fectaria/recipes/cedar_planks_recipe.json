@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "fectaria:cedar_log"
+    }
+  ],
+  "result": {
+    "item": "fectaria:cedar_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "fectaria:block/cedar_planks",
+    "top": "fectaria:block/cedar_planks",
+    "side": "fectaria:block/cedar_planks"
+  },
+  "render_type": "solid"
+}
